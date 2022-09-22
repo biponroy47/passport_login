@@ -6,3 +6,56 @@
   background-color: rgb(249, 249, 249);
   margin-top: 100px;
 }
+
+.main {
+  margin-top: 50px;
+  max-width: 300px;
+  background: rgb(5, 108, 163);
+  background: linear-gradient(
+    180deg,
+    rgba(5, 108, 163, 1) 0%,
+    rgba(84, 176, 224, 1) 49%,
+    rgba(201, 237, 255, 1) 100%
+  );
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.label {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.input {
+  margin-top: 3px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.a {
+  font-size: 12.5px;
+  padding: 10px;
+  margin-top: 50px;
+  text-decoration: none;
+  color: rgb(72, 72, 72);
+  font-weight: bold;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 175px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
